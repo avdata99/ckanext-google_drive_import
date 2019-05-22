@@ -24,6 +24,7 @@ docker-compose -f docker-compose.dev.yml exec ckan-dev /bin/bash -c "vi /srv/app
 ckan.plugins = ... <other extensions> ... google_drive_import
 # restart ckan for reload plugins (? not sure)
 docker-compose -f docker-compose.dev.yml restart ckan-dev
+
 ```
 
 
